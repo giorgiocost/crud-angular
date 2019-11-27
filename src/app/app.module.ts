@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BasicObservableComponent } from './basic-observable/basic-observable.component';
 import { ColdObeservableComponent } from './cold-obeservable/cold-obeservable.component';
+import { HotObservableComponent } from './hot-observable/hot-observable.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     BasicObservableComponent,
-    ColdObeservableComponent
+    ColdObeservableComponent,
+    HotObservableComponent
   ],
   imports: [
     BrowserModule,
